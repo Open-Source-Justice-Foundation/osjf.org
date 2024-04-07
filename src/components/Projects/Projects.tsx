@@ -6,7 +6,7 @@ export default function Projects() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="flex flex-col gap-4">
           <Fundsolvr />
-          <h4 className="font-semibold font-mona text-2xl text-headingBlack mt-2">
+          <h4 className="font-semibold font-mona text-2xl text-headingBlack mt-2 md:mt-0">
             Fundsolvr
           </h4>
           <p className="font-hubot text-lg text-bodyGrey">

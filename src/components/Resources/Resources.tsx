@@ -49,7 +49,7 @@ export default function Resources() {
                 <h4 className="font-semibold font-mona text-2xl text-headingBlack">
                   {resource.title}
                 </h4>
-                <Button className="bg-white text-headingBlack border-headingBlack border font-semibold self-start">
+                <Button className="hover:text-white bg-white text-headingBlack border-headingBlack border font-semibold self-start">
                   Read Now
                 </Button>
               </div>
