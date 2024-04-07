@@ -17,7 +17,7 @@ export default function About() {
           courthouse, but meaningful alternatives to conventional state-based
           justice systems.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-10 md:mt-0 flex-1 h-full">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-2 mt-10 lg:mt-0 flex-1 h-full">
           {[...Array(4)].map((el, i) => (
             <div className="h-full" key={i}>
               <Placeholder />
