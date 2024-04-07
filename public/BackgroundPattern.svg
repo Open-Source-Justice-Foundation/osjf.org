@@ -1,0 +1,75 @@
+<svg width="1220" height="422" viewBox="0 0 1220 422" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_2323_1815)">
+<rect width="1220" height="421.18" transform="translate(0 0.179688)" fill="#F9F9F9"/>
+<mask id="mask0_2323_1815" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="2402" height="734">
+<rect width="2402" height="734" fill="url(#paint0_linear_2323_1815)"/>
+</mask>
+<g mask="url(#mask0_2323_1815)">
+<line x1="2.5" y1="1.09278e-07" x2="2.49997" y2="710" stroke="white" stroke-width="5"/>
+<line x1="82.5" y1="1.09278e-07" x2="82.5" y2="710" stroke="white" stroke-width="5"/>
+<line x1="162.5" y1="1.09278e-07" x2="162.5" y2="710" stroke="white" stroke-width="5"/>
+<line x1="242.5" y1="1.09278e-07" x2="242.5" y2="710" stroke="white" stroke-width="5"/>
+<line x1="322.5" y1="1.09278e-07" x2="322.5" y2="710" stroke="white" stroke-width="5"/>
+<line x1="402.5" y1="1.09278e-07" x2="402.5" y2="710" stroke="white" stroke-width="5"/>
+<line x1="482.5" y1="1.09278e-07" x2="482.5" y2="710" stroke="white" stroke-width="5"/>
+<line x1="562.5" y1="1.09278e-07" x2="562.5" y2="710" stroke="white" stroke-width="5"/>
+<line x1="642.5" y1="1.09278e-07" x2="642.5" y2="710" stroke="white" stroke-width="5"/>
+<line x1="722.5" y1="1.09278e-07" x2="722.5" y2="710" stroke="white" stroke-width="5"/>
+<line x1="802.5" y1="1.09278e-07" x2="802.5" y2="710" stroke="white" stroke-width="5"/>
+<line x1="882.5" y1="1.09278e-07" x2="882.5" y2="710" stroke="white" stroke-width="5"/>
+<line x1="962.5" y1="1.09278e-07" x2="962.5" y2="710" stroke="white" stroke-width="5"/>
+<line x1="1042.5" y1="1.09278e-07" x2="1042.5" y2="710" stroke="white" stroke-width="5"/>
+<line x1="1122.5" y1="1.09278e-07" x2="1122.5" y2="710" stroke="white" stroke-width="5"/>
+<line x1="1202.5" y1="1.09278e-07" x2="1202.5" y2="710" stroke="white" stroke-width="5"/>
+<line x1="1.09278e-07" y1="397.5" x2="1220" y2="397.5" stroke="white" stroke-width="5"/>
+<line x1="1.09278e-07" y1="317.5" x2="1220" y2="317.5" stroke="white" stroke-width="5"/>
+<line x1="1.09278e-07" y1="237.5" x2="1220" y2="237.5" stroke="white" stroke-width="5"/>
+<line x1="1.09278e-07" y1="157.5" x2="1220" y2="157.5" stroke="white" stroke-width="5"/>
+<line x1="1.09278e-07" y1="77.5" x2="1220" y2="77.5001" stroke="white" stroke-width="5"/>
+<rect x="5" width="75" height="75" fill="white"/>
+<rect x="5" y="80" width="75" height="75" fill="white"/>
+<rect x="5" y="160" width="75" height="75" fill="white"/>
+<rect x="5" y="240" width="75" height="75" fill="white"/>
+<rect x="85" width="75" height="75" fill="white"/>
+<rect x="165" width="75" height="75" fill="white"/>
+<rect x="165" y="80" width="75" height="75" fill="white"/>
+<rect x="165" y="160" width="75" height="75" fill="white"/>
+<rect x="245" width="75" height="75" fill="white"/>
+<rect x="245" y="80" width="75" height="75" fill="white"/>
+<rect x="325" width="75" height="75" fill="white"/>
+<rect x="405" width="75" height="75" fill="white"/>
+<rect x="405" y="80" width="75" height="75" fill="white"/>
+<rect x="405" y="160" width="75" height="75" fill="white"/>
+<rect x="405" y="240" width="75" height="75" fill="white"/>
+<rect x="485" width="75" height="75" fill="white"/>
+<rect x="485" y="80" width="75" height="75" fill="white"/>
+<rect x="565" width="75" height="75" fill="white"/>
+<rect x="565" y="80" width="75" height="75" fill="white"/>
+<rect x="565" y="160" width="75" height="75" fill="white"/>
+<rect x="645" width="75" height="75" fill="white"/>
+<rect x="645" y="80" width="75" height="75" fill="white"/>
+<rect x="725" width="75" height="75" fill="white"/>
+<rect x="805" width="75" height="75" fill="white"/>
+<rect x="805" y="80" width="75" height="75" fill="white"/>
+<rect x="885" width="75" height="75" fill="white"/>
+<rect x="965" width="75" height="75" fill="white"/>
+<rect x="1045" width="75" height="75" fill="white"/>
+<rect x="1045" y="80" width="75" height="75" fill="white"/>
+<rect x="1045" y="160" width="75" height="75" fill="white"/>
+<rect x="1045" y="240" width="75" height="75" fill="white"/>
+<rect x="1125" width="75" height="75" fill="white"/>
+<rect x="1125" y="80" width="75" height="75" fill="white"/>
+<rect x="1205" width="75" height="75" fill="white"/>
+<rect x="1205" y="80" width="75" height="75" fill="white"/>
+</g>
+</g>
+<defs>
+<linearGradient id="paint0_linear_2323_1815" x1="0" y1="367" x2="2402" y2="367" gradientUnits="userSpaceOnUse">
+<stop stop-color="#D9D9D9"/>
+<stop offset="0.541216" stop-color="#737373" stop-opacity="0"/>
+</linearGradient>
+<clipPath id="clip0_2323_1815">
+<rect width="1220" height="421.18" fill="white" transform="translate(0 0.179688)"/>
+</clipPath>
+</defs>
+</svg>
