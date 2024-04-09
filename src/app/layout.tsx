@@ -16,12 +16,12 @@ const mona = localFont({
   display: "swap",
   src: [
     {
-      path: "./MonaSansExpanded-Regular.woff2",
+      path: "./MonaSans-Regular.woff2",
       weight: "400",
       style: "normal",
     },
     {
-      path: "./MonaSansExpanded-SemiBold.woff2",
+      path: "./MonaSans-SemiBold.woff2",
       weight: "500",
       style: "semibold",
     },
@@ -33,13 +33,18 @@ const hubot = localFont({
   display: "swap",
   src: [
     {
-      path: "./HubotSansExpanded-Medium.woff2",
+      path: "./HubotSans-Medium.woff2",
+      weight: "500",
+      style: "medium",
+    },
+    {
+      path: "./HubotSans-Regular.woff2",
       weight: "400",
       style: "normal",
     },
     {
-      path: "./HubotSansExpanded-SemiBold.woff2",
-      weight: "500",
+      path: "./HubotSans-SemiBold.woff2",
+      weight: "600",
       style: "semibold",
     },
   ],

@@ -11,13 +11,13 @@ export default function Header() {
       </div>
       <div className="flex flex-row gap-x-2">
         <a
-          className="flex flex-row gap-x-2 items-center font-hubot font-semibold"
+          className="hover:underline flex flex-row gap-x-2 items-center font-hubot font-medium text-md"
           href="mailto:info@opensourcejustice.org"
         >
           <Mail />
           <span>info@opensourcejustice.org</span>
         </a>
-        <Button className="hidden md:block bg-white text-headingBlack border-headingBlack border font-semibold self-start hover:text-white">
+        <Button className="box-border py-3 px-8 h-auto text-md hidden md:block bg-white text-headingBlack border-headingBlack border font-semibold self-start hover:text-white font-hubot w-fit">
           Donate
         </Button>
       </div>

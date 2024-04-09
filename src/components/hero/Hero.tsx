@@ -20,17 +20,19 @@ export default function Hero() {
         <br />
         Justice Foundation
       </h1>
-      <p className="font-hubot text-bodyGrey text-2xl  max-w-[660px]">
+      <p className="font-hubot text-bodyGrey text-2xl max-w-[660px]">
         We build and fund open source tools to empower sovereign communities and
         individuals to peacefully and voluntarily resolve their own disputes.
       </p>
       <div className="flex flex-col md:flex-row gap-2">
-        <Button className="bg-bitcoin text-black font-semibold self-start hover:bg-bitcoin hover:text-white">
+        <Button className="box-border py-3 px-8 border border-bitcoin h-auto bg-bitcoin text-black font-semibold self-start hover:bg-bitcoin hover:text-white font-hubot text-md">
           Donate Now
         </Button>
-        <Button className="bg-white text-headingBlack hover:text-white border-headingBlack border font-semibold self-start">
-          Join Us On Discord
-        </Button>
+        <a href="https://discord.gg/7BcZxFvjg7" target="_blank">
+          <Button className="box-border py-3 px-8 h-auto bg-white text-headingBlack hover:text-white border-headingBlack border font-semibold self-start font-hubot text-md">
+            Join Us On Discord
+          </Button>
+        </a>
       </div>
     </div>
   );

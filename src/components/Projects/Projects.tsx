@@ -2,7 +2,7 @@ import { Keystache, Fundsolvr, Duck, Github } from "../icons";
 export default function Projects() {
   return (
     <div className="mt-20">
-      <h2 className="mb-5 text-3xl text-titleGrey font-mona">Projects</h2>
+      <h2 className="mb-5 text-5xl text-titleGrey font-mona">Projects</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="flex flex-col gap-4">
           <Fundsolvr />

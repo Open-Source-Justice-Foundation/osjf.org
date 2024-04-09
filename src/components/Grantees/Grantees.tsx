@@ -27,7 +27,7 @@ const granteeMap = [
 export default function Grantees() {
   return (
     <div className="mt-20">
-      <h2 className="mb-5 text-3xl text-titleGrey font-mona">
+      <h2 className="mb-5 text-5xl text-titleGrey font-mona">
         Recent Grantees
       </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">

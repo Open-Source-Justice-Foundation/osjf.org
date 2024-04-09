@@ -7,17 +7,17 @@ import manifestoBg from "./ManifestoBackground.svg";
 const resourcesMap = [
   {
     title: "The Open Source Justice Manifesto",
-    link: "#",
+    link: "https://docs.google.com/document/d/1xE0DoYSF-TqPFj5pzVC94cfSlUnqtv9IGKY5jk_-kJo/edit?usp=sharing",
     background: manifestoBg,
   },
   {
     title: "IRS 501(c)(3) Determination Letter",
-    link: "#",
+    link: "https://drive.google.com/file/d/12Syl_qhSGGnaOBqnHE5a8z5qUdxROGzA/view?usp=drive_link",
     background: irsBg,
   },
   {
     title: "Articles of Incorporation & Bylaws",
-    link: "#",
+    link: "https://drive.google.com/file/d/11XQ-MTGjTQpcbdn7QGNpfNqaIMJuwFKE/view?usp=sharing",
     background: articlesBg,
   },
 ];
@@ -25,7 +25,7 @@ const resourcesMap = [
 export default function Resources() {
   return (
     <div className="mt-20">
-      <h2 className="mb-5 text-3xl text-titleGrey font-mona">Resources</h2>
+      <h2 className="mb-5 text-5xl text-titleGrey font-mona">Resources</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
         {resourcesMap.map((resource, i) => {
           return (
@@ -49,9 +49,11 @@ export default function Resources() {
                 <h4 className="font-semibold font-mona text-2xl text-headingBlack">
                   {resource.title}
                 </h4>
-                <Button className="hover:text-white bg-white text-headingBlack border-headingBlack border font-semibold self-start">
-                  Read Now
-                </Button>
+                <a href={resource.link} target="_blank">
+                  <Button className="hover:text-white bg-white text-headingBlack border-headingBlack border font-semibold self-start">
+                    Read Now
+                  </Button>
+                </a>
               </div>
             </div>
           );

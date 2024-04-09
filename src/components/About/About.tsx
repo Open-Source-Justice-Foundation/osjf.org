@@ -3,7 +3,7 @@ import { Placeholder } from "../icons";
 export default function About() {
   return (
     <div className="mt-20">
-      <h2 className="mb-5 text-3xl text-titleGrey font-mona">About</h2>
+      <h2 className="mb-5 text-5xl text-titleGrey font-mona">About</h2>
       <div className="flex flex-col lg:flex-row gap-x-20">
         <p className="flex-1 font-hubot text-lg lg:max-w-[540px]">
           The Open Source Justice Foundation was formed in 2024 to spread access

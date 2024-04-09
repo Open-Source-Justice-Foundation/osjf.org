@@ -20,14 +20,17 @@ export default function Prefooter() {
         Join the Open Source Justice Movement
       </h2>
       <div className="flex flex-col md:flex-row gap-2 mt-32">
-        <Button className="bg-bitcoin hover:text-white hover:bg-bitcoin text-black font-semibold self-start">
+        <Button className="box-border border border-bitcoin py-3 px-8 h-auto bg-bitcoin text-black font-semibold self-start hover:bg-bitcoin hover:text-white font-hubot text-md">
           Donate Now
         </Button>
-        <Button className="bg-white hover:text-white text-headingBlack border-headingBlack border font-semibold self-start">
-          Join Us On Discord
-        </Button>
+        <a href="https://discord.gg/7BcZxFvjg7" target="_blank">
+          <Button className="box-border py-3 px-8 h-auto bg-white text-headingBlack hover:text-white border-headingBlack border font-semibold self-start font-hubot text-md">
+            Join Us On Discord
+          </Button>
+        </a>
+
         <a
-          className="flex flex-row gap-x-2 items-center font-hubot font-semibold"
+          className="hover:underline flex flex-row gap-x-2 items-center font-hubot font-medium text-md"
           href="mailto:info@opensourcejustice.org"
         >
           <Mail />
