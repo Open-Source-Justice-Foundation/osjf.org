@@ -19,7 +19,7 @@ export default function Prefooter() {
       <h2 className="mb-5 text-3xl text-titleGrey font-mona lg:text-6xl md:text-5xl">
         Join the Open Source Justice Movement
       </h2>
-      <div className="flex flex-col md:flex-row gap-2 mt-32">
+      <div className="flex flex-col md:flex-row gap-4 mt-32">
         <a href="https://pay.zaprite.com/pl_kyPRcNC9V5" target="_blank">
           <Button className="box-border border border-bitcoin py-3 px-8 h-auto bg-bitcoin text-black font-semibold self-start hover:bg-bitcoin hover:text-white font-hubot text-md">
             Donate Now
