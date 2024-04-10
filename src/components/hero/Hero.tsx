@@ -3,7 +3,7 @@ import { Button } from "../ui/button";
 
 export default function Hero() {
   return (
-    <div className="flex flex-col gap-y-4 mt-2.5 z-auto relative pt-25 pb-2.5">
+    <div className="flex flex-col gap-y-4 mt-5 z-auto relative p-2.5">
       <Image
         alt="Background Pattern"
         src="/BackgroundPattern.svg"
@@ -24,7 +24,7 @@ export default function Hero() {
         We build and fund open source tools to empower sovereign communities and
         individuals to peacefully and voluntarily resolve their own disputes.
       </p>
-      <div className="flex flex-col md:flex-row gap-2">
+      <div className="flex flex-col md:flex-row gap-4 mt-5">
         <a href="https://pay.zaprite.com/pl_kyPRcNC9V5" target="_blank">
           <Button className="box-border py-3 px-8 border border-bitcoin h-auto bg-bitcoin text-black font-semibold self-start hover:bg-bitcoin hover:text-white font-hubot text-md">
             Donate Now

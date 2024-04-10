@@ -11,7 +11,7 @@ import { Button } from "@/components/ui/button";
 import { Mail } from "@/components/icons";
 export default function Home() {
   return (
-    <div className="container p-2.5 md:p-[30px]">
+    <div className="container p-2.5 md:p-[30px] md:pt-2.5">
       <Header />
       <Hero />
       <main className="">

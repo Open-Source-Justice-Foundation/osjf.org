@@ -1,7 +1,7 @@
 import { Keystache, Fundsolvr, Duck, Github } from "../icons";
 export default function Projects() {
   return (
-    <div className="mt-20">
+    <div className="mt-20 p-2.5">
       <h2 className="mb-5 text-3xl md:text-5xl text-titleGrey font-mona">
         Projects
       </h2>

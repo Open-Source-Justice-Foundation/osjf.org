@@ -26,7 +26,7 @@ const granteeMap = [
 
 export default function Grantees() {
   return (
-    <div className="mt-20">
+    <div className="mt-20 p-2.5">
       <h2 className="mb-5 text-3xl md:text-5xl text-titleGrey font-mona">
         Recent Grantees
       </h2>

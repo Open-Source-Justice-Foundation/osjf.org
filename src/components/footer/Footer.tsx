@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Footer() {
   return (
-    <footer className="flex flex-row mt-8 text-bodyGrey text-md">
+    <footer className="flex flex-row mt-8 text-bodyGrey text-md p-2.5">
       <div className="hidden md:block max-w-[60%]">
         Open Source Justice Foundation, Inc. is a Florida non-profit and
         501(c)(3) tax-exempt public charity. Donations to the Foundation may be

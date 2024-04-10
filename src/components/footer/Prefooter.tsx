@@ -4,7 +4,7 @@ import { Mail } from "../icons";
 
 export default function Prefooter() {
   return (
-    <div className="mt-20 relative z-auto pt-25 pb-2.5">
+    <div className="mt-20 relative z-auto mt-25 p-2.5">
       <Image
         alt="Background Pattern"
         src="/BackgroundPattern.svg"
