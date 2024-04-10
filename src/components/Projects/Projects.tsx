@@ -2,11 +2,13 @@ import { Keystache, Fundsolvr, Duck, Github } from "../icons";
 export default function Projects() {
   return (
     <div className="mt-20">
-      <h2 className="mb-5 text-5xl text-titleGrey font-mona">Projects</h2>
+      <h2 className="mb-5 text-3xl md:text-5xl text-titleGrey font-mona">
+        Projects
+      </h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
         <div className="flex flex-col gap-4">
           <Fundsolvr />
-          <h4 className="font-semibold font-mona text-2xl text-headingBlack mt-2 md:mt-0">
+          <h4 className="font-semibold font-mona text-xl text-headingBlack mt-2 md:mt-0">
             Fundsolvr
           </h4>
           <p className="font-hubot text-lg text-bodyGrey">
@@ -22,7 +24,7 @@ export default function Projects() {
         </div>
         <div className="flex flex-col gap-4">
           <Keystache />
-          <h4 className="font-semibold font-mona text-2xl text-headingBlack">
+          <h4 className="font-semibold font-mona text-xl text-headingBlack">
             Keystache
           </h4>
           <p className="font-hubot text-lg text-bodyGrey">

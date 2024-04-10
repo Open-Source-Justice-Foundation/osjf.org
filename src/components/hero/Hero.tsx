@@ -25,9 +25,11 @@ export default function Hero() {
         individuals to peacefully and voluntarily resolve their own disputes.
       </p>
       <div className="flex flex-col md:flex-row gap-2">
-        <Button className="box-border py-3 px-8 border border-bitcoin h-auto bg-bitcoin text-black font-semibold self-start hover:bg-bitcoin hover:text-white font-hubot text-md">
-          Donate Now
-        </Button>
+        <a href="https://pay.zaprite.com/pl_kyPRcNC9V5" target="_blank">
+          <Button className="box-border py-3 px-8 border border-bitcoin h-auto bg-bitcoin text-black font-semibold self-start hover:bg-bitcoin hover:text-white font-hubot text-md">
+            Donate Now
+          </Button>
+        </a>
         <a href="https://discord.gg/7BcZxFvjg7" target="_blank">
           <Button className="box-border py-3 px-8 h-auto bg-white text-headingBlack hover:text-white border-headingBlack border font-semibold self-start font-hubot text-md">
             Join Us On Discord

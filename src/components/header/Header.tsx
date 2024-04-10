@@ -17,9 +17,11 @@ export default function Header() {
           <Mail />
           <span>info@opensourcejustice.org</span>
         </a>
-        <Button className="box-border py-3 px-8 h-auto text-md hidden md:block bg-white text-headingBlack border-headingBlack border font-semibold self-start hover:text-white font-hubot w-fit">
-          Donate
-        </Button>
+        <a href="https://pay.zaprite.com/pl_kyPRcNC9V5" target="_blank">
+          <Button className="box-border py-3 px-8 h-auto text-md hidden md:block bg-white text-headingBlack border-headingBlack border font-semibold self-start hover:text-white font-hubot w-fit">
+            Donate
+          </Button>
+        </a>
       </div>
     </header>
   );
