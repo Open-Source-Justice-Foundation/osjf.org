@@ -2,7 +2,7 @@ import { Logo, Mail, Title } from "../icons";
 import { Button } from "../ui/button";
 export default function Header() {
   return (
-    <header className="flex flex-row items-center justify-between py-2.5">
+    <header className="flex flex-row items-center justify-between p-2.5">
       <div className="flex flex-row gap-x-2">
         <Logo />
         <div className="hidden md:block">
