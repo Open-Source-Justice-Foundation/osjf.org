@@ -10,7 +10,7 @@ export default function TOS() {
         <h2 className="mb-5 font-mona text-3xl md:text-5xl text-titleGrey">
           Terms of Service
         </h2>
-        <div className="flex flex-col gap-y-2.5 text-bodyGrey text-l font-hubot">
+        <div className="flex flex-col gap-y-2.5 text-bodyGrey text-lg font-hubot">
           <p>
             This website is operated and maintained by Open Source Justice
             Foundation, Inc. (the “Company”). The Company provides this website
