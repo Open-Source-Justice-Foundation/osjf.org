@@ -25,20 +25,22 @@ export default function TOS() {
             under open licenses.
           </p>
           <p>
-            CONVENIENCE AND INFORMATION ONLY; ACCEPTANCE OF TERMS. By merely
-            providing access to the Website, the Company does not warrant or
-            represent that: (a) the Content is accurate, complete, up-to-date or
-            current; (b) the Company has any obligation to update any Content;
-            (c) the Content is free from technical inaccuracies or typographical
-            errors; (d) the Content does not infringe on the intellectual
-            property rights of any third party; (e) the Content is free from
-            changes caused by a third party; (f) your access to the Website will
-            be free from interruptions, errors, computer viruses or other
-            harmful components; and (g) any information obtained in response to
-            questions asked through, or postings made on, the Website is
-            accurate or complete. Your use of the Website and the services
-            offered therein are subject to federal law, the law of the state
-            where the Company maintains your Account, or, if the Company
+            <span className="font-bold">
+              CONVENIENCE AND INFORMATION ONLY; ACCEPTANCE OF TERMS.
+            </span>{" "}
+            By merely providing access to the Website, the Company does not
+            warrant or represent that: (a) the Content is accurate, complete,
+            up-to-date or current; (b) the Company has any obligation to update
+            any Content; (c) the Content is free from technical inaccuracies or
+            typographical errors; (d) the Content does not infringe on the
+            intellectual property rights of any third party; (e) the Content is
+            free from changes caused by a third party; (f) your access to the
+            Website will be free from interruptions, errors, computer viruses or
+            other harmful components; and (g) any information obtained in
+            response to questions asked through, or postings made on, the
+            Website is accurate or complete. Your use of the Website and the
+            services offered therein are subject to federal law, the law of the
+            state where the Company maintains your Account, or, if the Company
             transfers your Account to another location, where Company currently
             maintains your Account (“Applicable Law”).
           </p>
@@ -85,18 +87,18 @@ export default function TOS() {
             violation of any law or the rights of others.
           </p>
           <p>
-            COPYRIGHT AND TRADEMARKS. The trademarks, service marks, and logos
-            used and displayed on the Website are Company’s or its subsidiaries’
-            or affiliates’ registered and unregistered trademarks. Company is
-            the copyright owner or authorized licensee of all text and all
-            graphics contained on the Website. All trademarks and service marks
-            of Company that may be referred to on the Website are the property
-            of Company. Other parties’ trademarks and service marks that may be
-            referred to on the Website are the property of their respective
-            owners. Nothing on the Website should be construed as granting, by
-            implication, estoppel or otherwise, any license or right to use any
-            of Company’s trademarks or service marks without Company’s prior
-            written permission.
+            <span className="font-bold">COPYRIGHT AND TRADEMARKS</span>. The
+            trademarks, service marks, and logos used and displayed on the
+            Website are Company’s or its subsidiaries’ or affiliates’ registered
+            and unregistered trademarks. Company is the copyright owner or
+            authorized licensee of all text and all graphics contained on the
+            Website. All trademarks and service marks of Company that may be
+            referred to on the Website are the property of Company. Other
+            parties’ trademarks and service marks that may be referred to on the
+            Website are the property of their respective owners. Nothing on the
+            Website should be construed as granting, by implication, estoppel or
+            otherwise, any license or right to use any of Company’s trademarks
+            or service marks without Company’s prior written permission.
           </p>
           <p>
             THE WEBSITE AND ITS RELATED SERVICES ARE PROVIDED TO YOU “AS
@@ -111,9 +113,9 @@ export default function TOS() {
             OF THE POSSIBILITY OF THESE DAMAGES.
           </p>
           <p>
-            PRIVACY. Personal data that you provide regarding yourself will be
-            handled in accordance with Company’s Privacy Policy located at
-            opensourcejustice.org/privacy
+            <span className="font-bold">PRIVACY.</span> Personal data that you
+            provide regarding yourself will be handled in accordance with
+            Company’s Privacy Policy located at opensourcejustice.org/privacy
           </p>
           <p>
             This Terms of Use agreement shall be governed exclusively by the

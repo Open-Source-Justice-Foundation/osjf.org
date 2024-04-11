@@ -22,7 +22,7 @@ export default function PrivacyPolicy() {
             it will be used and protected. Company may from time to time change
             this Privacy Policy, so please check back periodically.
           </p>
-          <p>
+          <p className="font-bold">
             WHAT PERSONALLY IDENTIFIABLE INFORMATION DO WE OBTAIN FROM YOU? WHEN
             DO WE OBTAIN SUCH INFORMATION?
           </p>
@@ -53,7 +53,7 @@ export default function PrivacyPolicy() {
               </li>
             </ul>
           </p>
-          <p>COOKIES, TRACKING, AND INTEREST-BASED ADS</p>
+          <p className="font-bold">COOKIES, TRACKING, AND INTEREST-BASED ADS</p>
           <p>
             We and our third-party providers use cookies, pixel tags,
             JavaScript, log files, and other mechanisms to automatically collect
@@ -88,7 +88,7 @@ export default function PrivacyPolicy() {
             third parties may display ads to you based on your visit to our
             Sites and other third-party sites.
           </p>
-          <p>
+          <p className="font-bold">
             HOW DO WE PROTECT THE SECURITY AND QUALITY OF YOUR PERSONAL
             INFORMATION?
           </p>
@@ -108,7 +108,7 @@ export default function PrivacyPolicy() {
             guarantee that any security measure will be completely and totally
             secure.
           </p>
-          <p>HOW DO WE USE YOUR INFORMATION?</p>
+          <p className="font-bold">HOW DO WE USE YOUR INFORMATION?</p>
           <p>
             Our primary use of your information is to administer, maintain and
             improve your experience on our Website generally as well as provide
@@ -122,7 +122,7 @@ export default function PrivacyPolicy() {
             you direct mail about our activities or events that we believe may
             be of interest to you.
           </p>
-          <p>PRIVACY POLICIES OF COMPANY PARTNERS</p>
+          <p className="font-bold">PRIVACY POLICIES OF COMPANY PARTNERS</p>
           <p>
             Third parties that have links on our Website may collect personally
             identifiable information about you. We are not responsible for the
@@ -142,7 +142,9 @@ export default function PrivacyPolicy() {
             practices of our business partners, you should contact them
             directly.
           </p>
-          <p>DO WE SELL OR RENT YOUR PERSONALLY IDENTIFIABLE INFORMATION?</p>
+          <p className="font-bold">
+            DO WE SELL OR RENT YOUR PERSONALLY IDENTIFIABLE INFORMATION?
+          </p>
           <p>
             No, as a general rule, we do not sell or rent your personally
             identifiable information to any one. If and whenever we intend to
@@ -151,7 +153,7 @@ export default function PrivacyPolicy() {
             notified at the time of data collection or transfer, and you will
             have the option of not permitting the transfer.
           </p>
-          <p>WITH WHOM DO WE SHARE INFORMATION?</p>
+          <p className="font-bold">WITH WHOM DO WE SHARE INFORMATION?</p>
           <p>
             We generally will not disclose any of your personally identifiable
             information except when we have your permission to do so or under
@@ -184,7 +186,7 @@ export default function PrivacyPolicy() {
             We may disclose your information if we are required to do so by law
             (including to law enforcement in the U.S. and other jurisdictions).
           </p>
-          <p>
+          <p className="font-bold">
             HOW CAN YOU UPDATE, CORRECT, OR DELETE YOUR PERSONALLY IDENTIFIABLE
             INFORMATION?
           </p>
@@ -192,7 +194,9 @@ export default function PrivacyPolicy() {
             You may edit your personally identifiable information at any time by
             sending an e-mail request to info@opensourcejustice.org.
           </p>
-          <p>WHAT ELSE SHOULD YOU KNOW ABOUT YOUR ONLINE PRIVACY?</p>
+          <p className="font-bold">
+            WHAT ELSE SHOULD YOU KNOW ABOUT YOUR ONLINE PRIVACY?
+          </p>
           <p>
             It is important to remember that whenever you voluntarily disclose
             personal information on-line, your information can be collected and
@@ -216,7 +220,7 @@ export default function PrivacyPolicy() {
             you must be aware of the risk that such third parties will have
             access to all your personally identifiable information.
           </p>
-          <p>CONTACT US.</p>
+          <p className="font-bold">CONTACT US.</p>
           <p>
             If you have any questions or comments about this Privacy Statement
             or the practices of our Website, please feel free to e-mail us at

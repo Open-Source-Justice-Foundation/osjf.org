@@ -3,11 +3,11 @@ import { Button } from "../ui/button";
 import articlesBg from "./ArticlesBackground.svg";
 import irsBg from "./IRSBackground.svg";
 import manifestoBg from "./ManifestoBackground.svg";
-
+import Link from "next/link";
 const resourcesMap = [
   {
     title: "The Open Source Justice Manifesto",
-    link: "https://docs.google.com/document/d/1xE0DoYSF-TqPFj5pzVC94cfSlUnqtv9IGKY5jk_-kJo/edit?usp=sharing",
+    link: "/manifesto",
     background: manifestoBg,
   },
   {
@@ -51,11 +51,11 @@ export default function Resources() {
                 <h4 className="font-semibold font-mona text-2xl text-headingBlack">
                   {resource.title}
                 </h4>
-                <a href={resource.link} target="_blank">
+                <Link href={resource.link}>
                   <Button className="hover:text-white bg-white text-headingBlack border-headingBlack border font-semibold self-start">
                     Read Now
                   </Button>
-                </a>
+                </Link>
               </div>
             </div>
           );
