@@ -1,14 +1,16 @@
 import { Logo, Mail, Title } from "../icons";
 import { Button } from "../ui/button";
+import Link from "next/link";
 export default function Header() {
   return (
     <header className="flex flex-row items-center justify-between p-2.5">
-      <div className="flex flex-row gap-x-2">
+      <Link className="flex flex-row gap-x-2" href="/">
         <Logo />
         <div className="hidden md:block">
           <Title />
         </div>
-      </div>
+      </Link>
+
       <div className="flex flex-row md:gap-x-8">
         <a
           className="hover:underline flex flex-row gap-x-2 items-center font-hubot font-medium text-md"
