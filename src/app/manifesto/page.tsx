@@ -79,28 +79,29 @@ export default function Manifesto() {
           <p>
             Consider Richard Stallman{"'"}s four essential freedoms for open
             source software:
-            <ol className="list-decimal list-inside pl-8 my-4 flex gap-y-2.5 flex-col">
-              <li>
-                The freedom to run the program as you wish, for any purpose.
-                (Freedom 0)
-              </li>
-              <li>
-                The freedom to study how the program works, and change it so it
-                does your computing as you wish. Access to the source code is a
-                precondition for this. (Freedom 1)
-              </li>
-              <li>
-                The freedom to redistribute copies so you can help others.
-                (Freedom 2)
-              </li>
-              <li>
-                The freedom to distribute copies of your modified versions to
-                others. By doing this you can give the whole community a chance
-                to benefit from your changes. Access to the source code is a
-                precondition for this. (Freedom 3)
-              </li>
-            </ol>
           </p>
+          <ol className="list-decimal list-inside pl-8 my-4 flex gap-y-2.5 flex-col">
+            <li>
+              The freedom to run the program as you wish, for any purpose.
+              (Freedom 0)
+            </li>
+            <li>
+              The freedom to study how the program works, and change it so it
+              does your computing as you wish. Access to the source code is a
+              precondition for this. (Freedom 1)
+            </li>
+            <li>
+              The freedom to redistribute copies so you can help others.
+              (Freedom 2)
+            </li>
+            <li>
+              The freedom to distribute copies of your modified versions to
+              others. By doing this you can give the whole community a chance to
+              benefit from your changes. Access to the source code is a
+              precondition for this. (Freedom 3)
+            </li>
+          </ol>
+
           <p>
             Freedom 0, the freedom to run a program for any purpose, embodies
             respect for the choices and sovereignty of others. Sovereign

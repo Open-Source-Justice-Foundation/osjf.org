@@ -6,7 +6,7 @@ export default function PrivacyPolicy() {
     <div className="container p-2.5 md:p-[30px] md:pt-2.5">
       <Header />
 
-      <main className="mt-5 p-2.5">
+      <main className="mt-5 p-2.5 text-justify">
         <h2 className="mb-5 font-mona text-3xl md:text-5xl text-titleGrey">
           Privacy and Information Security Policy
         </h2>
@@ -31,28 +31,26 @@ export default function PrivacyPolicy() {
             informational content, we will not require that you provide us with
             any personally identifiable information. However, we may request
             personal information from you at other times. For example:
-            <ul>
-              <li>
-                If you donate through our Website, we may ask that you provide
-                us with certain personal information, including your name,
-                e-mail address, mailing address, and/or telephone number. This
-                information will be used for our legitimate non-profit and
-                charitable business interests, including issuing donation
-                receipts and maintaining records necessary to retain our
-                tax-exempt status.
-              </li>
-              <li>
-                If you choose to participate in a survey conducted by us or by
-                one of our business partners, we may ask for your name, e-mail
-                address and other information as may be required by the
-                particular survey.
-              </li>
-              <li>
-                Should you contact us for any reason, we may also keep a record
-                and copy of your correspondence with us.
-              </li>
-            </ul>
           </p>
+          <ul className="list-disc list-inside pl-8 my-4 flex gap-y-2.5 flex-col">
+            <li>
+              If you donate through our Website, we may ask that you provide us
+              with certain personal information, including your name, e-mail
+              address, mailing address, and/or telephone number. This
+              information will be used for our legitimate non-profit and
+              charitable business interests, including issuing donation receipts
+              and maintaining records necessary to retain our tax-exempt status.
+            </li>
+            <li>
+              If you choose to participate in a survey conducted by us or by one
+              of our business partners, we may ask for your name, e-mail address
+              and other information as may be required by the particular survey.
+            </li>
+            <li>
+              Should you contact us for any reason, we may also keep a record
+              and copy of your correspondence with us.
+            </li>
+          </ul>
           <p className="font-bold">COOKIES, TRACKING, AND INTEREST-BASED ADS</p>
           <p>
             We and our third-party providers use cookies, pixel tags,

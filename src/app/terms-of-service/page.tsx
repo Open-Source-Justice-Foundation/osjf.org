@@ -6,7 +6,7 @@ export default function TOS() {
     <div className="container p-2.5 md:p-[30px] md:pt-2.5">
       <Header />
 
-      <main className="mt-5 p-2.5">
+      <main className="mt-5 p-2.5 text-justify">
         <h2 className="mb-5 font-mona text-3xl md:text-5xl text-titleGrey">
           Terms of Service
         </h2>
