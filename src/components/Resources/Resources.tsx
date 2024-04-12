@@ -12,12 +12,12 @@ const resourcesMap = [
   },
   {
     title: "IRS 501(c)(3) Determination Letter",
-    link: "https://drive.google.com/file/d/12Syl_qhSGGnaOBqnHE5a8z5qUdxROGzA/view?usp=drive_link",
+    link: "/Exempt_Status_Determination_Letter_1023_App.pdf",
     background: irsBg,
   },
   {
     title: "Articles of Incorporation & Bylaws",
-    link: "https://drive.google.com/file/d/11XQ-MTGjTQpcbdn7QGNpfNqaIMJuwFKE/view?usp=sharing",
+    link: "/Articles_of_Incorporation_Redacted.pdf",
     background: articlesBg,
   },
 ];
