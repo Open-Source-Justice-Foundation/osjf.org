@@ -12,7 +12,7 @@ const config = {
   theme: {
     fontSize: {
       md: ["0.9375rem", "24px"],
-      lg: ["1.125rem", "32px"],
+      lg: ["1.125rem", "28px"],
       xl: "1.375rem",
       "2xl": "1.5rem",
 

@@ -1,7 +1,7 @@
 import Logo from "./Logo";
 import Mail from "./Mail";
 import Title from "./Title";
-import Placeholder from "./Placeholder";
+import Resolvr from "./Resolvr";
 import Fundsolvr from "./Fundsolvr";
 import Keystache from "./Keystache";
 import Duck from "./Duck";
@@ -10,11 +10,14 @@ import HorizontalRule from "./HorizontalRule";
 import ArticleOfIncorporation from "./ArticleOfIncorporation";
 import ArticlesOfDetermination from "./ArticlesOfDetermination";
 import Manifesto from "./Manifesto";
+import BoltFun from "./BoltFun";
+import Alby from "./Alby";
+import Discord from "./Discord";
 export {
   Logo,
   Mail,
   Title,
-  Placeholder,
+  Resolvr,
   Fundsolvr,
   Keystache,
   Duck,
@@ -23,4 +26,7 @@ export {
   ArticleOfIncorporation,
   ArticlesOfDetermination,
   Manifesto,
+  BoltFun,
+  Alby,
+  Discord,
 };

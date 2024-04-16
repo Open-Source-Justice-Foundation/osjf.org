@@ -3,7 +3,7 @@ export default function Projects() {
   return (
     <div className="mt-20 p-2.5">
       <div className="mb-5 flex flex-row gap-x-2.5">
-        <h2 className="text-3xl md:text-5xl text-heading font-hubot font-light uppercase">
+        <h2 className="text-3xl md:text-5xl text-heading font-hubot font-semibold uppercase">
           Projects
         </h2>
         <div className="w-full max-w-full overflow-hidden">

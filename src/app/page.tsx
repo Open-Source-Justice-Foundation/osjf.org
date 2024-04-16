@@ -7,6 +7,7 @@ import About from "@/components/About/About";
 import Projects from "@/components/Projects/Projects";
 import Grantees from "@/components/Grantees/Grantees";
 import Resources from "@/components/Resources/Resources";
+import Partners from "@/components/Partners/Partners";
 import { Button } from "@/components/ui/button";
 import { Mail } from "@/components/icons";
 export default function Home() {
@@ -15,6 +16,7 @@ export default function Home() {
       <Header />
       <Hero />
       <main className="">
+        <Partners />
         <About />
         <Projects />
         <Grantees />

@@ -15,7 +15,7 @@ export default function Hero() {
           objectFit: "cover",
         }}
       />
-      <h1 className="text-4xl md:text-6xl font-hubot font-light text-heading uppercase">
+      <h1 className="text-4xl md:text-6xl font-hubot font-semibold text-heading uppercase">
         Open Source
         <br />
         Justice Foundation
@@ -30,9 +30,13 @@ export default function Hero() {
             Donate Now
           </Button>
         </a>
-        <a href="https://discord.gg/7BcZxFvjg7" target="_blank">
+
+        <a
+          href="https://docs.google.com/forms/d/e/1FAIpQLScGxlbCkIchvHZP1Tmo7rd9DAhtXdJEcZoCaHSh2FPo64pjSg/viewform"
+          target="_blank"
+        >
           <Button className="box-border py-3 px-8 h-auto bg-white text-title hover:text-white border-buttonBorder border font-medium self-start font-hubot text-md">
-            Join Us On Discord
+            Apply for a Grant
           </Button>
         </a>
       </div>
