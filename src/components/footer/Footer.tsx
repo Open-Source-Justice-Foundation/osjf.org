@@ -1,7 +1,12 @@
 import Link from "next/link";
+import { Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"] });
 export default function Footer() {
   return (
-    <footer className="flex flex-row mt-8 text-bodyGrey text-md p-2.5">
+    <footer
+      className={`flex flex-row mt-8 text-[#757575] text-md p-2.5 ${inter.className}`}
+    >
       <div className="hidden md:block max-w-[60%]">
         Open Source Justice Foundation, Inc. is a Florida non-profit and
         501(c)(3) tax-exempt public charity. Donations to the Foundation may be

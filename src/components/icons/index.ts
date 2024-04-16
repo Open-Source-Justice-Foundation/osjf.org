@@ -7,6 +7,9 @@ import Keystache from "./Keystache";
 import Duck from "./Duck";
 import Github from "./Github";
 import HorizontalRule from "./HorizontalRule";
+import ArticleOfIncorporation from "./ArticleOfIncorporation";
+import ArticlesOfDetermination from "./ArticlesOfDetermination";
+import Manifesto from "./Manifesto";
 export {
   Logo,
   Mail,
@@ -17,4 +20,7 @@ export {
   Duck,
   Github,
   HorizontalRule,
+  ArticleOfIncorporation,
+  ArticlesOfDetermination,
+  Manifesto,
 };

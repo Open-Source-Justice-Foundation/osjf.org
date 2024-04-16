@@ -1,25 +1,27 @@
 import Image from "next/image";
 import { Button } from "../ui/button";
-import articlesBg from "./ArticlesBackground.svg";
-import irsBg from "./IRSBackground.svg";
-import manifestoBg from "./ManifestoBackground.svg";
+import {
+  Manifesto,
+  ArticleOfIncorporation,
+  ArticlesOfDetermination,
+} from "../icons";
 import Link from "next/link";
 import { HorizontalRule } from "../icons";
 const resourcesMap = [
   {
     title: "The Open Source Justice Manifesto",
     link: "/manifesto",
-    background: manifestoBg,
+    icon: Manifesto,
   },
   {
     title: "IRS 501(c)(3) Determination Letter",
     link: "/Exempt_Status_Determination_Letter_1023_App.pdf",
-    background: irsBg,
+    icon: ArticlesOfDetermination,
   },
   {
     title: "Articles of Incorporation & Bylaws",
     link: "/Articles_of_Incorporation_Redacted.pdf",
-    background: articlesBg,
+    icon: ArticleOfIncorporation,
   },
 ];
 
@@ -39,26 +41,15 @@ export default function Resources() {
           return (
             <div
               key={i}
-              className="bg-[#F9F9F9] relative z-auto min-h-96 flex flex-col justify-end"
+              className="relative z-auto flex flex-col justify-end gap-4"
             >
-              <Image
-                alt={`Resource background image ${i + 1}`}
-                src={resource.background}
-                quality={100}
-                fill
-                sizes="100vw"
-                style={{
-                  objectFit: "none",
-                  zIndex: "0",
-                  margin: "auto",
-                }}
-              />
-              <div className="z-10 flex flex-col gap-4 p-5">
+              <resource.icon />
+              <div className="z-10 flex flex-col gap-4">
                 <h4 className="font-semibold font-mona text-2xl text-title">
                   {resource.title}
                 </h4>
                 <Link href={resource.link}>
-                  <Button className="hover:text-white bg-white text-title border-buttonBorder border font-semibold self-start">
+                  <Button className="text-md font-hubot hover:text-white bg-white text-title border-buttonBorder border font-medium self-start py-3 px-8">
                     Read Now
                   </Button>
                 </Link>

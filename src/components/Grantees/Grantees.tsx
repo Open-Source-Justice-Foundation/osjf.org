@@ -50,10 +50,10 @@ export default function Grantees() {
                 style={{ borderRadius: "50%", border: "1px solid black" }}
                 alt={`Picture of ${grantee.name}`}
               />
-              <h3 className="font-mona text-xl font-semibold text-title">
+              <h3 className="font-hubot text-xl font-medium text-title">
                 {grantee.name}
               </h3>
-              <p className="font-hubot text-center text-bodyGrey">
+              <p className="font-hubot font-light text-center text-heading">
                 {grantee.bio}
               </p>
               <div className="flex flex-row gap-2">

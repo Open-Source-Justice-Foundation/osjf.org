@@ -16,9 +16,9 @@ export default function Prefooter() {
           objectFit: "cover",
         }}
       />
-      <h2 className="mb-5 text-3xl text-heading font-mona lg:text-6xl md:text-5xl">
+      <h1 className="text-4xl md:text-[80px] md:leading-[96px] font-hubot font-light text-heading uppercase">
         Join the Open Source Justice Movement
-      </h2>
+      </h1>
       <div className="flex flex-col md:flex-row gap-4 mt-32">
         <a href="https://pay.zaprite.com/pl_kyPRcNC9V5" target="_blank">
           <Button className="box-border border border-buttonBorder py-3 px-8 h-auto bg-bitcoin text-black font-medium self-start hover:bg-bitcoin hover:text-white font-hubot text-md">
