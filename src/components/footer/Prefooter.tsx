@@ -33,7 +33,7 @@ export default function Prefooter() {
             Apply for a Grant
           </Button>
         </a>
-        <div className="flex flex-col md:flex-row md:ml-auto md:justify-center md:items-center gap-6 ">
+        <div className="flex flex-col md:flex-row md:ml-auto md:justify-center md:items-center gap-4 md:gap-6">
           <a
             className="hover:underline flex flex-row gap-x-2 items-center font-hubot font-medium text-md"
             href="https://discord.gg/7BcZxFvjg7"
