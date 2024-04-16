@@ -1,6 +1,3 @@
-// import { Placeholder } from "../icons";
-import { HorizontalRule } from "../icons";
-import Image from "next/image";
 import { Resolvr, BoltFun, Alby } from "../icons";
 
 const partnerMap = [
@@ -19,10 +16,6 @@ const partnerMap = [
     name: "Alby",
     url: "https://getalby.com/",
   },
-  // {
-  //   img: alby,
-  //   name: "Alby",
-  // },
 ];
 
 export default function Partners() {

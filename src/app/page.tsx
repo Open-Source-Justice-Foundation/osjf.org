@@ -1,4 +1,3 @@
-import Image from "next/image";
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
 import Prefooter from "@/components/footer/Prefooter";
@@ -8,14 +7,13 @@ import Projects from "@/components/Projects/Projects";
 import Grantees from "@/components/Grantees/Grantees";
 import Resources from "@/components/Resources/Resources";
 import Partners from "@/components/Partners/Partners";
-import { Button } from "@/components/ui/button";
-import { Mail } from "@/components/icons";
+
 export default function Home() {
   return (
     <div className="container p-2.5 md:p-[30px] md:pt-2.5">
       <Header />
       <Hero />
-      <main className="">
+      <main>
         <Partners />
         <About />
         <Projects />
@@ -23,7 +21,6 @@ export default function Home() {
         <Resources />
         <Prefooter />
       </main>
-
       <Footer />
     </div>
   );
