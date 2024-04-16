@@ -6,4 +6,15 @@ import Fundsolvr from "./Fundsolvr";
 import Keystache from "./Keystache";
 import Duck from "./Duck";
 import Github from "./Github";
-export { Logo, Mail, Title, Placeholder, Fundsolvr, Keystache, Duck, Github };
+import HorizontalRule from "./HorizontalRule";
+export {
+  Logo,
+  Mail,
+  Title,
+  Placeholder,
+  Fundsolvr,
+  Keystache,
+  Duck,
+  Github,
+  HorizontalRule,
+};

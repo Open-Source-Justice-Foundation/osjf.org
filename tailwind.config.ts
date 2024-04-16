@@ -15,10 +15,31 @@ const config = {
       lg: ["1.125rem", "32px"],
       xl: "1.375rem",
       "2xl": "1.5rem",
-      "3xl": "1.75rem",
+
+      "3xl": [
+        "2rem",
+        {
+          lineHeight: "2.5rem",
+          letterSpacing: "0.2px",
+        },
+      ],
       "4xl": "2.75rem",
-      "5xl": "3.125rem",
-      "6xl": ["6.25rem", "7.21875rem"],
+
+      "5xl": [
+        "3.125rem",
+        {
+          letterSpacing: "0.2px",
+          lineHeight: "4rem",
+        },
+      ],
+
+      "6xl": [
+        "6.25rem",
+        {
+          lineHeight: "6.875rem",
+          letterSpacing: "-1px",
+        },
+      ],
     },
     container: {
       center: true,
@@ -35,9 +56,10 @@ const config = {
       },
       colors: {
         bitcoin: "#FB923C",
-        titleGrey: "#757575",
+        heading: "#292929",
+        buttonBorder: "#575757",
         bodyGrey: "#636363",
-        headingBlack: "#1E1E1E",
+        title: "#1E1E1E",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",

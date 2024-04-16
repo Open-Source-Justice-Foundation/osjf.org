@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { Duck, Github } from "../icons";
+import { Duck, Github, HorizontalRule } from "../icons";
 const granteeMap = [
   {
     name: "Utibe Essien",
@@ -27,9 +27,14 @@ const granteeMap = [
 export default function Grantees() {
   return (
     <div className="mt-20 p-2.5">
-      <h2 className="mb-5 text-3xl md:text-5xl text-titleGrey font-mona">
-        Recent Grantees
-      </h2>
+      <div className="mb-5 flex flex-row gap-x-2.5">
+        <h2 className="md:whitespace-nowrap text-3xl md:text-5xl text-heading font-hubot font-light uppercase">
+          Recent Grantees
+        </h2>
+        <div className="w-full max-w-full overflow-hidden">
+          <HorizontalRule />
+        </div>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
         {granteeMap.map((grantee, i) => {
           return (
@@ -45,7 +50,7 @@ export default function Grantees() {
                 style={{ borderRadius: "50%", border: "1px solid black" }}
                 alt={`Picture of ${grantee.name}`}
               />
-              <h3 className="font-mona text-xl font-semibold text-headingBlack">
+              <h3 className="font-mona text-xl font-semibold text-title">
                 {grantee.name}
               </h3>
               <p className="font-hubot text-center text-bodyGrey">

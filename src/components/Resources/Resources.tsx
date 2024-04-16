@@ -4,6 +4,7 @@ import articlesBg from "./ArticlesBackground.svg";
 import irsBg from "./IRSBackground.svg";
 import manifestoBg from "./ManifestoBackground.svg";
 import Link from "next/link";
+import { HorizontalRule } from "../icons";
 const resourcesMap = [
   {
     title: "The Open Source Justice Manifesto",
@@ -25,9 +26,14 @@ const resourcesMap = [
 export default function Resources() {
   return (
     <div className="mt-20 p-2.5">
-      <h2 className="mb-5 text-3xl md:text-5xl text-titleGrey font-mona">
-        Resources
-      </h2>
+      <div className="mb-5 flex flex-row gap-x-2.5">
+        <h2 className="text-3xl md:text-5xl text-heading font-hubot font-light uppercase">
+          Resources
+        </h2>
+        <div className="w-full max-w-full overflow-hidden">
+          <HorizontalRule />
+        </div>
+      </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
         {resourcesMap.map((resource, i) => {
           return (
@@ -48,11 +54,11 @@ export default function Resources() {
                 }}
               />
               <div className="z-10 flex flex-col gap-4 p-5">
-                <h4 className="font-semibold font-mona text-2xl text-headingBlack">
+                <h4 className="font-semibold font-mona text-2xl text-title">
                   {resource.title}
                 </h4>
                 <Link href={resource.link}>
-                  <Button className="hover:text-white bg-white text-headingBlack border-headingBlack border font-semibold self-start">
+                  <Button className="hover:text-white bg-white text-title border-buttonBorder border font-semibold self-start">
                     Read Now
                   </Button>
                 </Link>

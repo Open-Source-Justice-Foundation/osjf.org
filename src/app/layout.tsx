@@ -43,6 +43,11 @@ const hubot = localFont({
       style: "normal",
     },
     {
+      path: "./HubotSans-Light.woff2",
+      weight: "300",
+      style: "light",
+    },
+    {
       path: "./HubotSans-SemiBold.woff2",
       weight: "600",
       style: "semibold",

@@ -7,7 +7,7 @@ export default function Manifesto() {
       <Header />
 
       <main className="mt-5 p-2.5">
-        <h2 className="mb-5 font-mona text-3xl md:text-5xl text-titleGrey">
+        <h2 className="mb-5 font-mona text-3xl md:text-5xl text-heading">
           Open Source Justice Manifesto
         </h2>
         <div className="flex flex-col gap-y-2.5 text-bodyGrey text-lg font-hubot">
