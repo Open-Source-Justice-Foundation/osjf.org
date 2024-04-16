@@ -1,5 +1,6 @@
 import Image from "next/image";
-import { Button } from "../ui/button";
+import ButtonPrimary from "../shared/ButtonPrimary";
+import ButtonSecondary from "../shared/ButtonSecondary";
 import { Mail, Discord } from "../icons";
 
 export default function Prefooter() {
@@ -21,17 +22,13 @@ export default function Prefooter() {
       </h2>
       <div className="flex flex-col md:flex-row gap-4 mt-32">
         <a href="https://pay.zaprite.com/pl_kyPRcNC9V5" target="_blank">
-          <Button className="box-border border border-buttonBorder py-3 px-8 h-auto bg-bitcoin text-black font-medium self-start hover:bg-bitcoin hover:text-white font-hubot text-md">
-            Donate Now
-          </Button>
+          <ButtonPrimary>Donate Now</ButtonPrimary>
         </a>
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLScGxlbCkIchvHZP1Tmo7rd9DAhtXdJEcZoCaHSh2FPo64pjSg/viewform"
           target="_blank"
         >
-          <Button className="box-border py-3 px-8 h-auto bg-white text-title hover:text-white border-buttonBorder border font-medium self-start font-hubot text-md">
-            Apply for a Grant
-          </Button>
+          <ButtonSecondary>Apply for a Grant</ButtonSecondary>
         </a>
         <div className="flex flex-col md:flex-row md:ml-auto md:justify-center md:items-center gap-4 md:gap-6">
           <a

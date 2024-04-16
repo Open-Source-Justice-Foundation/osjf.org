@@ -51,7 +51,6 @@ const config = {
     // colors: {},
     extend: {
       fontFamily: {
-        mona: ["var(--font-mona)"],
         hubot: ["var(--font-hubot)"],
       },
       colors: {

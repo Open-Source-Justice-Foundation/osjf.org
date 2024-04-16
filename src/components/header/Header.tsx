@@ -1,6 +1,6 @@
 import { Logo, Mail, Title, Discord } from "../icons";
-import { Button } from "../ui/button";
 import Link from "next/link";
+import ButtonSecondary from "../shared/ButtonSecondary";
 export default function Header() {
   return (
     <header className="flex flex-row items-center justify-between p-2.5">
@@ -30,9 +30,7 @@ export default function Header() {
           <span className="hidden md:block">info@opensourcejustice.org</span>
         </a>
         <a href="https://pay.zaprite.com/pl_kyPRcNC9V5" target="_blank">
-          <Button className="tracking-[0.6px] box-border py-3 px-8 h-auto text-md hidden md:block bg-white text-title border-buttonBorder border font-medium self-start hover:text-white font-hubot w-fit">
-            Donate
-          </Button>
+          <ButtonSecondary className="hidden md:block">Donate</ButtonSecondary>
         </a>
       </div>
     </header>

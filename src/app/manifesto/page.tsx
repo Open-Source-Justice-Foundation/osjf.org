@@ -1,5 +1,7 @@
 import Header from "@/components/header/Header";
 import Footer from "@/components/footer/Footer";
+import ButtonPrimary from "@/components/shared/ButtonPrimary";
+import ButtonSecondary from "@/components/shared/ButtonSecondary";
 
 export default function Manifesto() {
   return (
@@ -7,7 +9,7 @@ export default function Manifesto() {
       <Header />
 
       <main className="mt-5 p-2.5">
-        <h2 className="mb-5 font-mona text-3xl md:text-5xl text-heading">
+        <h2 className="mb-5 font-hubot text-3xl md:text-5xl text-heading">
           Open Source Justice Manifesto
         </h2>
         <div className="flex flex-col gap-y-2.5 text-bodyGrey text-lg font-hubot">
@@ -150,6 +152,17 @@ export default function Manifesto() {
           </p>
 
           <p>Join the Open Source Justice movement today.</p>
+          <div className="flex flex-col md:flex-row gap-4 mt-5">
+            <a href="https://pay.zaprite.com/pl_kyPRcNC9V5" target="_blank">
+              <ButtonPrimary>Donate Now</ButtonPrimary>
+            </a>
+            <a
+              href="https://docs.google.com/forms/d/e/1FAIpQLScGxlbCkIchvHZP1Tmo7rd9DAhtXdJEcZoCaHSh2FPo64pjSg/viewform"
+              target="_blank"
+            >
+              <ButtonSecondary>Apply for a Grant</ButtonSecondary>
+            </a>
+          </div>
         </div>
       </main>
 

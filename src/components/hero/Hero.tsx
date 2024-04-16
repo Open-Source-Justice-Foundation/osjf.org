@@ -1,6 +1,6 @@
 import Image from "next/image";
-import { Button } from "../ui/button";
-
+import ButtonPrimary from "../shared/ButtonPrimary";
+import ButtonSecondary from "../shared/ButtonSecondary";
 export default function Hero() {
   return (
     <div className="flex flex-col gap-y-4 mt-5 z-auto relative p-2.5">
@@ -26,18 +26,13 @@ export default function Hero() {
       </p>
       <div className="flex flex-col md:flex-row gap-4 mt-5">
         <a href="https://pay.zaprite.com/pl_kyPRcNC9V5" target="_blank">
-          <Button className="box-border py-3 px-8 border border-black h-auto bg-bitcoin text-black font-medium self-start hover:bg-bitcoin hover:text-white font-hubot text-md">
-            Donate Now
-          </Button>
+          <ButtonPrimary>Donate Now</ButtonPrimary>
         </a>
-
         <a
           href="https://docs.google.com/forms/d/e/1FAIpQLScGxlbCkIchvHZP1Tmo7rd9DAhtXdJEcZoCaHSh2FPo64pjSg/viewform"
           target="_blank"
         >
-          <Button className="box-border py-3 px-8 h-auto bg-white text-title hover:text-white border-buttonBorder border font-medium self-start font-hubot text-md">
-            Apply for a Grant
-          </Button>
+          <ButtonSecondary>Apply for a Grant</ButtonSecondary>
         </a>
       </div>
     </div>

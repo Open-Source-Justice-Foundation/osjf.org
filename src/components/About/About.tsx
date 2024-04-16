@@ -1,16 +1,8 @@
-import { HorizontalRule } from "../icons";
-
+import SectionTitle from "../shared/SectionTitle";
 export default function About() {
   return (
     <div className="p-2.5">
-      <div className="mb-5 flex flex-row gap-x-2.5">
-        <h2 className="text-3xl md:text-5xl text-heading font-hubot font-semibold uppercase">
-          About
-        </h2>
-        <div className="w-full max-w-full overflow-hidden">
-          <HorizontalRule />
-        </div>
-      </div>
+      <SectionTitle>About</SectionTitle>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-2.5 md:gap-x-10 gap-y-2.5">
         <div className="flex-auto">
           <p className="font-hubot text-lg text-heading">

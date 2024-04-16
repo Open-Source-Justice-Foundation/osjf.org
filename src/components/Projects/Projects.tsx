@@ -1,15 +1,9 @@
-import { Keystache, Fundsolvr, Duck, Github, HorizontalRule } from "../icons";
+import { Keystache, Fundsolvr, Duck, Github } from "../icons";
+import SectionTitle from "../shared/SectionTitle";
 export default function Projects() {
   return (
     <div className="mt-20 p-2.5">
-      <div className="mb-5 flex flex-row gap-x-2.5">
-        <h2 className="text-3xl md:text-5xl text-heading font-hubot font-semibold uppercase">
-          Projects
-        </h2>
-        <div className="w-full max-w-full overflow-hidden">
-          <HorizontalRule />
-        </div>
-      </div>
+      <SectionTitle>Projects</SectionTitle>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="flex flex-col gap-4">
           <Fundsolvr />
