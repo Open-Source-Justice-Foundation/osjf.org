@@ -5,7 +5,7 @@ import localFont from "next/font/local";
 export const metadata: Metadata = {
   title: "Open Source Justice Foundation",
   description:
-    "We build and fund open source tools to empower sovereign communities and individuals to peacefully and voluntarily resolve their own disputes.",
+    "Empowering sovereign communities and individuals to peacefully and voluntarily resolve their disputes through open-source tools.",
 };
 
 const hubot = localFont({
