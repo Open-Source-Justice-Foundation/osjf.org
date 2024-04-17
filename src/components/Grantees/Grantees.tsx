@@ -4,7 +4,7 @@ import SectionTitle from "../shared/SectionTitle";
 const granteeMap = [
   {
     name: "Utibe Essien",
-    bio: "A product designer, passionate about crafting systems that spread prosperity. Uty is working on OSJF vision for open source development with Fundsolvr and nostr sovereign desktop companion, Keystache.",
+    bio: "A product designer, passionate about crafting systems that spread prosperity. Uty is working on OSJF's vision for open-source development with Fundsolvr and Keystache, a Nostr sovereign desktop companion.",
     img: "https://pbs.twimg.com/profile_images/1764766785671204864/xrFFwm64_400x400.png",
     nostr: "#",
     github: "https://github.com/utidon",
