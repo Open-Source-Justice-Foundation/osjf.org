@@ -11,10 +11,9 @@ export default function Projects() {
             Fundsolvr
           </h4>
           <p className="font-hubot text-lg text-heading">
-            Fundsolvr is a p2p crowdfunding marketplace that helps open source
-            projects build a value for value economy by rallying funding for
-            development issues that can be converted into bounties, to be paid
-            directly to builders and project maintainers.
+            Fundsolvr is a peer-to-peer crowdfunding marketplace that aggregates funding for open-source
+            projects and turns issues into bounties paid directly to builders and project maintainers, 
+            enabling open-source contributors to benefit from a value-for-value economy.
           </p>
           <div className="flex flex-row gap-4">
             <Duck />
