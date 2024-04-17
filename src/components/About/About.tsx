@@ -24,8 +24,8 @@ export default function About() {
           justice systems.
         </p>
         <p className="text-right flex-auto font-hubot text-heading leading-[40px] text-[40px] mt-10 md:mt-0">
-          Making Justice a conscious effort as the arc of history does not bend
-          towards justice on its own.
+          The arc of history does not bend
+          towards justice on its own — it requires conscious action.
         </p>
       </div>
     </div>
