@@ -19,7 +19,7 @@ const resourcesMap = [
   },
   {
     title: "Articles of Incorporation & Bylaws",
-    link: "/Articles_of_Incorporation_Redacted.pdf",
+    link: "/Articles-Bylaws.pdf",
     icon: ArticleOfIncorporation,
   },
 ];
