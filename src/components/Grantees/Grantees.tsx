@@ -32,7 +32,7 @@ const granteeMap = [
 export default function Grantees() {
   return (
     <div className="mt-20 p-2.5">
-      <SectionTitle>Recent Grantees</SectionTitle>
+      <SectionTitle>Grantees Build Transparent and Fair Systems for Everyone</SectionTitle>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
         {granteeMap.map((grantee, i) => {
           return (
