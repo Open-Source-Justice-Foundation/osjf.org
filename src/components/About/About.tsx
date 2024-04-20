@@ -11,7 +11,7 @@ export default function About() {
             technology.
           </p>
           <p className="font-hubot text-lg text-heading mt-2.5">
-            To that end, the Foundation supports the research and development of
+            The Foundation supports the research and development of
             open-source tools that empower individuals and communities to
             peacefully and voluntarily resolve their own disputes.
           </p>
@@ -22,10 +22,6 @@ export default function About() {
           access to justice doesn&apos;t just mean a wider door on the
           courthouse, but meaningful alternatives to conventional state-based
           justice systems.
-        </p>
-        <p className="text-right flex-auto font-hubot text-heading leading-[40px] text-[40px] mt-10 md:mt-0">
-          The arc of history does not bend
-          towards justice on its own — it requires conscious action.
         </p>
       </div>
     </div>
