@@ -1,4 +1,4 @@
-import { Resolvr, BoltFun, Alby } from "../icons";
+import { Resolvr, BoltFun, Alby, Grove } from "../icons";
 
 const partnerMap = [
   {
@@ -16,12 +16,18 @@ const partnerMap = [
     name: "Alby",
     url: "https://getalby.com/",
   },
+  {
+    img: Grove,
+    name: "BTC Grove",
+    url: "https://twitter.com/BitcoinGrove",
+  },
 ];
 
 export default function Partners() {
   return (
     <div className="p-2.5">
-      <div className="grid grid-cols-1 md:grid-cols-3 my-12 gap-6 md:gap-12 lg:gap-28 flex-1 h-full">
+      <h2 className="font-hubot font-medium text-2xl">Our Partners</h2>
+      <div className="grid grid-cols-1 md:grid-cols-4 my-12 gap-6 md:gap-12 lg:gap-28 flex-1 h-full">
         {partnerMap.map((partner, i) => (
           <div className="h-full flex justify-center items-center" key={i}>
             <a href={partner.url} target="_blank">

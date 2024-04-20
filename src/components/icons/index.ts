@@ -13,6 +13,7 @@ import Manifesto from "./Manifesto";
 import BoltFun from "./BoltFun";
 import Alby from "./Alby";
 import Discord from "./Discord";
+import Grove from "./Grove";
 export {
   Logo,
   Mail,
@@ -29,4 +30,5 @@ export {
   BoltFun,
   Alby,
   Discord,
+  Grove,
 };

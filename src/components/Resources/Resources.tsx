@@ -27,7 +27,7 @@ const resourcesMap = [
 export default function Resources() {
   return (
     <div className="mt-20 p-2.5">
-      <SectionTitle>Resources</SectionTitle>
+      <SectionTitle>Our Vision of the Future</SectionTitle>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
         {resourcesMap.map((resource, i) => {
           return (

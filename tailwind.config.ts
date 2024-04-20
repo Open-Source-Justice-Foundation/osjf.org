@@ -26,10 +26,10 @@ const config = {
       "4xl": "2.75rem",
 
       "5xl": [
-        "3.125rem",
+        "3rem",
         {
-          letterSpacing: "0.2px",
-          lineHeight: "4rem",
+          letterSpacing: "0px",
+          lineHeight: "3.5rem",
         },
       ],
 

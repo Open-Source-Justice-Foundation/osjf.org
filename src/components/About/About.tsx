@@ -2,7 +2,7 @@ import SectionTitle from "../shared/SectionTitle";
 export default function About() {
   return (
     <div className="p-2.5">
-      <SectionTitle>About</SectionTitle>
+      <SectionTitle>Bending the Arc of History Towards Justice</SectionTitle>
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-2.5 md:gap-x-10 gap-y-2.5">
         <div className="flex-auto">
           <p className="font-hubot text-lg text-heading">
@@ -11,9 +11,9 @@ export default function About() {
             technology.
           </p>
           <p className="font-hubot text-lg text-heading mt-2.5">
-            To that end, the Foundation supports the research and development of
-            open-source tools that empower individuals and communities to
-            peacefully and voluntarily resolve their own disputes.
+            The Foundation supports the research and development of open-source
+            tools that empower individuals and communities to peacefully and
+            voluntarily resolve their own disputes.
           </p>
         </div>
         <p className="font-hubot text-lg text-heading flex-auto">
@@ -24,8 +24,8 @@ export default function About() {
           justice systems.
         </p>
         <p className="text-right flex-auto font-hubot text-heading leading-[40px] text-[40px] mt-10 md:mt-0">
-          The arc of history does not bend
-          towards justice on its own — it requires conscious action.
+          The arc of history does not bend towards justice on its own —
+          it requires conscious action.
         </p>
       </div>
     </div>
