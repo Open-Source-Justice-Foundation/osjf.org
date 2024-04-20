@@ -82,7 +82,10 @@ export default function Manifesto() {
             Consider Richard Stallman{"'"}s four essential freedoms for open
             source software:
           </p>
-          <ol className="list-decimal list-inside pl-8 my-4 flex gap-y-2.5 flex-col" start="0">
+          <ol
+            className="list-decimal list-inside pl-8 my-4 flex gap-y-2.5 flex-col"
+            start={0}
+          >
             <li>
               The freedom to run the program as you wish, for any purpose.
               (Freedom 0)
