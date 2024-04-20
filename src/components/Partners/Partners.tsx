@@ -19,7 +19,7 @@ const partnerMap = [
   {
     img: Grove,
     name: "BTC Grove",
-    url: "https://twitter.com/BitcoinGrove",
+    url: "https://btcgrove.com",
   },
 ];
 
