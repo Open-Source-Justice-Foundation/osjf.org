@@ -1,21 +1,61 @@
 import Link from "next/link";
-import { Inter } from "next/font/google";
+// import { Inter } from "next/font/google";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
 export default function Footer() {
   return (
     <footer
-      className={`flex flex-row mt-8 text-[#757575] text-md p-2.5 ${inter.className}`}
+      className={`font-hubot gap-x-2 flex flex-row mt-8 text-[#757575] text-md p-2.5`}
     >
       <div className="hidden md:block max-w-[60%]">
         Open Source Justice Foundation, Inc. is a Florida non-profit and
         501(c)(3) tax-exempt public charity. Donations to the Foundation may be
         tax-deductible. Consult your tax advisor on how to claim any deductions.
       </div>
-      <div className="flex flex-col lg:flex-row gap-x-4 justify-end items-end ml-auto">
-        <Link href="/privacy-policy">Privacy Policy</Link>
-        <Link href="/terms-of-service">Terms of Service</Link>
-        <span>© 2024 Open Source Justice</span>
+      <div className="grid grid-cols-2 leading-[20px]">
+        <div className="flex flex-col gap-y-2">
+          <div className="font-semibold text-[13px]">Organization</div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
+            <div className="flex flex-col gap-y-2">
+              <a href="https://pay.zaprite.com/pl_kyPRcNC9V5" target="_blank">
+                Donate
+              </a>
+              <a
+                href="https://docs.google.com/forms/d/e/1FAIpQLScGxlbCkIchvHZP1Tmo7rd9DAhtXdJEcZoCaHSh2FPo64pjSg/viewform"
+                target="_blank"
+              >
+                Apply for a Grant
+              </a>
+              <Link href="/manifesto">Manifesto</Link>
+            </div>
+            <div className="flex flex-col gap-y-2">
+              <a href="https://discord.gg/7BcZxFvjg7" target="_blank">
+                Discord
+              </a>
+              <a href="mailto:info@opensourcejustice.org">Contact</a>
+            </div>
+          </div>
+        </div>
+        <div className="flex flex-col gap-y-2">
+          <div className="font-semibold text-[13px]">Transparency</div>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
+            <div className="flex flex-col gap-y-2">
+              <Link href="/privacy-policy">Privacy Policy</Link>
+              <a
+                href="/Exempt_Status_Determination_Letter_1023_App.pdf"
+                target="_blank"
+              >
+                Determination Letter
+              </a>
+            </div>
+            <div className="flex flex-col gap-y-2">
+              <Link href="/terms-of-service">Terms of Use</Link>
+              <a href="/Articles-Bylaws.pdf" target="_blank">
+                Incorporation & Bylaws
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </footer>
   );

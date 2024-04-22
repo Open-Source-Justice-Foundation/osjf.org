@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <div className="mt-20 p-2.5">
       <SectionTitle>
-        Supporting Projects that Spread Liberty and Prosperity
+        Projects We Support Empower Individuals and Communities
       </SectionTitle>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="flex flex-col gap-4">
@@ -21,8 +21,10 @@ export default function Projects() {
             increase market efficiencies.
           </p>
           <div className="flex flex-row gap-4">
-            <Duck />
-            <Github />
+            {/* <Duck /> */}
+            <a href="https://github.com/Resolvr-io/resolvr.io" target="_blank">
+              <Github />
+            </a>
           </div>
         </div>
         <div className="flex flex-col gap-4">
@@ -36,9 +38,11 @@ export default function Projects() {
             their cryptographic keys in a single desktop app, allowing a
             seamless OAUTH-style login experience across NOSTR-applications.
           </p>
-          <div className="flex flex-row gap-4">
-            <Duck />
-            <Github />
+          <div className="flex flex-row gap-4 mt-auto">
+            {/* <Duck /> */}
+            <a href="https://github.com/Resolvr-io/Keystache" target="_blank">
+              <Github />
+            </a>
           </div>
         </div>
       </div>
