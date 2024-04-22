@@ -22,8 +22,7 @@ export default function Hero() {
         Justice Foundation
       </h1>
       <p className="font-hubot text-heading text-2xl max-w-[660px]">
-        We build and fund open-source tools to empower sovereign communities and
-        individuals to peacefully and voluntarily resolve their own disputes.
+        Increasing access to justice globally through open-source software and technology.
       </p>
       <div className="flex flex-col md:flex-row gap-4 mt-5">
         <a href="https://pay.zaprite.com/pl_kyPRcNC9V5" target="_blank">
