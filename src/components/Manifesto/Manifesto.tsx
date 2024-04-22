@@ -3,7 +3,7 @@ import ButtonSecondary from "../shared/ButtonSecondary";
 import Link from "next/link";
 export default function Manifesto() {
   return (
-    <div className="lg:mt-40 p-2.5 flex flex-col lg:flex-row items-start gap-x-12 lg:mb-[120px] mt-20 mb-20">
+    <div className="p-2.5 flex flex-col lg:flex-row items-start gap-x-12 lg:mb-[120px] mt-20 lg:mt-40 mb-20">
       <h2 className="mb-8 font-hubot text-heading text-[3rem] leading-[56px] md:text-[5rem] md:leading-[88px] tracking-[-3px] font-semibold lg:max-w-[465px]">
         The Open Source Justice Manifesto
       </h2>

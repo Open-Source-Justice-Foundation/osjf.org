@@ -6,6 +6,9 @@ export const metadata: Metadata = {
   title: "Open Source Justice Foundation",
   description:
     "Empowering sovereign communities and individuals to peacefully and voluntarily resolve their disputes through open-source tools.",
+  icons: {
+    icon: "/favicon.ico",
+  },
 };
 
 const hubot = localFont({

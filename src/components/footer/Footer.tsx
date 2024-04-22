@@ -7,11 +7,15 @@ export default function Footer() {
     <footer
       className={`font-hubot gap-x-2 flex flex-row mt-8 text-[#757575] text-md p-2.5`}
     >
-      <div className="hidden md:block max-w-[60%]">
+      <div className="hidden md:block max-w-[50%]">
         Open Source Justice Foundation, Inc. is a Florida non-profit and
         501(c)(3) tax-exempt public charity. Donations to the Foundation may be
         tax-deductible. Consult your tax advisor on how to claim any deductions.
+        <div className="mt-8">
+          <span>Established Blockheight 825506</span>
+        </div>
       </div>
+
       <div className="grid grid-cols-2 leading-[20px]">
         <div className="flex flex-col gap-y-2">
           <div className="font-semibold text-[13px]">Organization</div>
