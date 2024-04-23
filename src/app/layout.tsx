@@ -5,9 +5,15 @@ import localFont from "next/font/local";
 export const metadata: Metadata = {
   title: "Open Source Justice Foundation",
   description:
-    "Empowering sovereign communities and individuals to peacefully and voluntarily resolve their disputes through open-source tools.",
-  icons: {
-    icon: "/favicon.ico",
+    "Supporting open-source developers and projects that increase access to justice with open protocols and technology.",
+  openGraph: {
+    title: "Open Source Justice Foundation",
+    description:
+      "Supporting open-source developers and projects that increase access to justice with open protocols and technology.",
+    url: "https://osjf.org",
+    siteName: "Open Source Justice Foundation",
+    locale: "en_US",
+    type: "website",
   },
 };
 
