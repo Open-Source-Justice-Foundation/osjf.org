@@ -15,6 +15,13 @@ export const metadata: Metadata = {
     siteName: "Open Source Justice Foundation",
     locale: "en_US",
     type: "website",
+    images: { url: "https://osjf.org/opengraph-image.png", alt: "OSJF Logo" },
+  },
+  twitter: {
+    images: {
+      url: "https://osjf.org/twitter-image.png",
+      alt: "OSJF Logo",
+    },
   },
 };
 
