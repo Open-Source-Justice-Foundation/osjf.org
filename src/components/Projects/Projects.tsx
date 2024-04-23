@@ -17,8 +17,7 @@ export default function Projects() {
             Fundsolvr is a peer-to-peer crowdfunding marketplace for open-source
             projects that turns issues into bounties paid directly to builders
             and project maintainers, enabling open-source contributors to
-            benefit from a value-for-value economy. And Fundsolvr{"'"}s
-            integrated dispute resolution tools provide assurances that further
+            benefit from a value-for-value economy. Integrated dispute resolution tools provide assurances that further
             increase market efficiencies.
           </p>
           <div className="flex flex-row gap-4">
