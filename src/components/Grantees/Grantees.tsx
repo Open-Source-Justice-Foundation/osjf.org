@@ -32,9 +32,10 @@ const granteeMap = [
 export default function Grantees() {
   return (
     <div className="mt-20 p-2.5">
-      <SectionTitle>
-        OSJF Grantees Spreading Open and Accessible Justice
-      </SectionTitle>
+      <SectionTitle
+        heading="OSJF Grantees"
+        subheading="Building Open, Accessible Justice"
+      />
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
         {granteeMap.map((grantee, i) => {
           return (
@@ -63,7 +64,7 @@ export default function Grantees() {
 
                 {grantee.github && (
                   <a href={grantee.github} target="_blank">
-                    <Github />
+                    <Github width="32" height="33" />
                   </a>
                 )}
               </div>

@@ -3,9 +3,10 @@ import SectionTitle from "../shared/SectionTitle";
 export default function Projects() {
   return (
     <div className="mt-20 p-2.5">
-      <SectionTitle>
-        Projects We Support Empower Individuals and Communities
-      </SectionTitle>
+      <SectionTitle
+        heading="Projects We Support"
+        subheading="Empowering Individuals And Communities"
+      />
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
         <div className="flex flex-col gap-4">
           <Fundsolvr />
@@ -23,7 +24,7 @@ export default function Projects() {
           <div className="flex flex-row gap-4">
             {/* <Duck /> */}
             <a href="https://github.com/Resolvr-io/resolvr.io" target="_blank">
-              <Github />
+              <Github width="32" height="33" />
             </a>
           </div>
         </div>
@@ -41,7 +42,7 @@ export default function Projects() {
           <div className="flex flex-row gap-4 mt-auto">
             {/* <Duck /> */}
             <a href="https://github.com/Resolvr-io/Keystache" target="_blank">
-              <Github />
+              <Github width="32" height="33" />
             </a>
           </div>
         </div>

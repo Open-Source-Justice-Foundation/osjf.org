@@ -36,6 +36,12 @@ export default function Footer() {
               <a href="https://discord.gg/7BcZxFvjg7" target="_blank">
                 Discord
               </a>
+              <a
+                href="https://github.com/Open-Source-Justice-Foundation"
+                target="_blank"
+              >
+                Github
+              </a>
               <a href="mailto:info@opensourcejustice.org">Contact</a>
             </div>
           </div>

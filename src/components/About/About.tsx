@@ -2,7 +2,7 @@ import SectionTitle from "../shared/SectionTitle";
 export default function About() {
   return (
     <div className="p-2.5">
-      <SectionTitle>Bending the Arc of History Towards Justice</SectionTitle>
+      <SectionTitle heading="Bending the Arc of History Towards Justice" />
       <div className="grid grid-cols-1 lg:grid-cols-3 gap-x-2.5 md:gap-x-10 gap-y-2.5">
         <div className="flex-auto">
           <p className="font-hubot text-lg text-heading">

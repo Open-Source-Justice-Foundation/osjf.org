@@ -1,8 +1,12 @@
-export default function Github() {
+type Props = {
+  width: string;
+  height: string;
+};
+export default function Github({ width, height }: Props) {
   return (
     <svg
-      width="32"
-      height="33"
+      width={width}
+      height={height}
       viewBox="0 0 32 33"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
