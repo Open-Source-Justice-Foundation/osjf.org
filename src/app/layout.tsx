@@ -4,6 +4,7 @@ import localFont from "next/font/local";
 
 export const metadata: Metadata = {
   title: "Open Source Justice Foundation",
+  metadataBase: new URL("https://osjf.org"),
   description:
     "Supporting open-source developers and projects that increase access to justice with open protocols and technology.",
   openGraph: {
