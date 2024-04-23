@@ -1,7 +1,7 @@
 import Image from "next/image";
 import ButtonPrimary from "../shared/ButtonPrimary";
 import ButtonSecondary from "../shared/ButtonSecondary";
-import { Mail, Discord } from "../icons";
+import { Mail, Discord, Github } from "../icons";
 
 export default function Prefooter() {
   return (
@@ -17,22 +17,27 @@ export default function Prefooter() {
           objectFit: "cover",
         }}
       />
-      <h2 className="text-4xl md:text-[80px] md:leading-[96px] font-hubot font-semibold text-heading uppercase">
+      <h2 className="text-4xl lg:text-[80px] lg:leading-[96px] font-hubot font-semibold text-heading uppercase">
         Join the Open Source Justice Movement
       </h2>
-      <div className="flex flex-col md:flex-row gap-4 mt-32">
-        <a href="https://pay.zaprite.com/pl_kyPRcNC9V5" target="_blank">
+      <div className="flex flex-col lg:flex-row gap-4 mt-32">
+        <a
+          className="self-start"
+          href="https://pay.zaprite.com/pl_kyPRcNC9V5"
+          target="_blank"
+        >
           <ButtonPrimary>Donate Now</ButtonPrimary>
         </a>
         <a
+          className="self-start"
           href="https://docs.google.com/forms/d/e/1FAIpQLScGxlbCkIchvHZP1Tmo7rd9DAhtXdJEcZoCaHSh2FPo64pjSg/viewform"
           target="_blank"
         >
           <ButtonSecondary>Apply for a Grant</ButtonSecondary>
         </a>
-        <div className="flex flex-col md:flex-row md:ml-auto md:justify-center md:items-center gap-4 md:gap-6">
+        <div className="flex flex-col lg:flex-row lg:ml-auto lg:justify-center lg:items-center gap-4 lg:gap-6">
           <a
-            className="hover:underline flex flex-row gap-x-2 items-center font-hubot font-medium text-md"
+            className="self-start my-auto hover:underline flex flex-row gap-x-2 items-center font-hubot font-medium text-md"
             href="https://discord.gg/7BcZxFvjg7"
             target="_blank"
           >
@@ -42,7 +47,15 @@ export default function Prefooter() {
             <span>Discord</span>
           </a>
           <a
-            className="hover:underline flex flex-row gap-x-2 items-center font-hubot font-medium text-md"
+            className="self-start my-auto hover:underline flex flex-row gap-x-2 items-center font-hubot font-medium text-md"
+            href="https://github.com/Open-Source-Justice-Foundation"
+            target="_blank"
+          >
+            <Github height="25" width="24" />
+            <span>Github</span>
+          </a>
+          <a
+            className="self-start my-auto hover:underline flex flex-row gap-x-2 items-center font-hubot font-medium text-md"
             href="mailto:info@opensourcejustice.org"
           >
             <Mail />
