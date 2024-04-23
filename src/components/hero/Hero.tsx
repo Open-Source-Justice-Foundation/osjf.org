@@ -1,7 +1,6 @@
 import Image from "next/image";
 import ButtonPrimary from "../shared/ButtonPrimary";
 import ButtonSecondary from "../shared/ButtonSecondary";
-import Partners from "../Partners/Partners";
 export default function Hero() {
   return (
     <div className="flex flex-col gap-y-4 mt-5 z-auto relative p-2.5">
@@ -36,7 +35,6 @@ export default function Hero() {
           <ButtonSecondary>Apply for a Grant</ButtonSecondary>
         </a>
       </div>
-      {/* <Partners /> */}
     </div>
   );
 }
