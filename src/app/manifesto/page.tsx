@@ -73,9 +73,9 @@ export default function Manifesto() {
           </p>
           <p>
             The tenets of the free and open-source software (FOSS) movement are
-            aligned with the goal of advancing equal access to justice.{" "}
+            aligned with the goal of advancing equal access to justice.  FOSS is{" "}
             <span className="italic">
-              FOSS is permissionless, inclusive, transparent, and anti-discriminatory.
+              permissionless, inclusive, transparent, and anti-discriminatory.
             </span>
           </p>
           <p>
