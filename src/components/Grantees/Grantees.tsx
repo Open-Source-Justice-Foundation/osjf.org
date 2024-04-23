@@ -5,7 +5,7 @@ import justinMoeller from "./justin_moeller.webp";
 const granteeMap = [
   {
     name: "Utibe Essien",
-    bio: "A product designer, passionate about crafting systems that spread prosperity. Uty is working on OSJF's vision for open-source development with Fundsolvr and Keystache, a Nostr sovereign desktop companion.",
+    bio: "A product designer, passionate about crafting systems that spread prosperity. Uty is working on OSJF's vision for open-source development with Fundsolvr and Keystache.",
     img: "https://pbs.twimg.com/profile_images/1764766785671204864/xrFFwm64_400x400.png",
     nostr:
       "https://primal.net/p/npub1ux6aa69nyc3u69wgvwpu4ydcf7q20xj84lfm06thfp90meev8tyquep37x",
@@ -21,7 +21,7 @@ const granteeMap = [
   },
   {
     name: "Justin Moeller",
-    bio: "Justin is a software engineer passionate about Bitcoin, distributed systems, and databases. He is currently working on Fedimint focusing on the Lightning Gateway and is supported by Spiral and OpenSats. The Foundation awarded Justin a grant for his proposal to create an escrow and arbitration module for the Fedimint protocol.",
+    bio: "Justin is a software engineer passionate about Bitcoin, distributed systems, and databases. He is currently working on the Fedimint protocol, and is supported by Spiral and OpenSats. The Foundation awarded Justin a grant for his proposal to create a Fedimint escrow and arbitration module.",
     img: justinMoeller,
     nostr:
       "https://primal.net/p/npub1zswjq57t99f444z6485xtn0vfyjjfu8vqpnyj6uckuyem2446evqnxgc6x",
