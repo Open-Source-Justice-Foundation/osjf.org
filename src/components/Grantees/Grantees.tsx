@@ -36,7 +36,7 @@ export default function Grantees() {
         heading="OSJF Grantees"
         subheading="Building Open, Accessible Justice"
       />
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-14">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
         {granteeMap.map((grantee, i) => {
           return (
             <div key={i} className="flex flex-col items-center gap-4">
@@ -49,10 +49,10 @@ export default function Grantees() {
                 style={{ borderRadius: "50%" }}
                 alt={`Picture of ${grantee.name}`}
               />
-              <h3 className="font-hubot text-xl font-medium text-title">
+              <h4 className="font-hubot text-xl font-medium text-title">
                 {grantee.name}
-              </h3>
-              <p className="font-hubot text-lg text-center text-heading">
+              </h4>
+              <p className="font-hubot text-md text-center text-heading">
                 {grantee.bio}
               </p>
               <div className="flex flex-row gap-2 mt-auto">

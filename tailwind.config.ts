@@ -13,7 +13,13 @@ const config = {
     fontSize: {
       md: ["0.9375rem", "24px"],
       lg: ["1.125rem", "28px"],
-      xl: "1.375rem",
+      xl: [
+        "1.375rem",
+        {
+          lineHeight: "40px",
+          letterSpacing: "0px",
+        },
+      ],
       "2xl": "1.5rem",
 
       "3xl": [
@@ -23,7 +29,13 @@ const config = {
           letterSpacing: "0.2px",
         },
       ],
-      "4xl": "2.75rem",
+      "4xl": [
+        "2.75rem",
+        {
+          letterSpacing: "-1px",
+          lineHeight: "50px",
+        },
+      ],
 
       "5xl": [
         "3rem",

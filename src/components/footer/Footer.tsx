@@ -19,7 +19,7 @@ export default function Footer() {
       <div className="grid grid-cols-2 leading-[20px]">
         <div className="flex flex-col gap-y-2">
           <div className="font-semibold text-[13px]">Organization</div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 text-heading">
             <div className="flex flex-col gap-y-2">
               <a href="https://pay.zaprite.com/pl_kyPRcNC9V5" target="_blank">
                 Donate
@@ -48,7 +48,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-col gap-y-2">
           <div className="font-semibold text-[13px]">Transparency</div>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-2">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 text-heading">
             <div className="flex flex-col gap-y-2">
               <Link href="/privacy-policy">Privacy Policy</Link>
               <a

@@ -3,7 +3,7 @@ import ButtonPrimary from "../shared/ButtonPrimary";
 import ButtonSecondary from "../shared/ButtonSecondary";
 export default function Hero() {
   return (
-    <div className="flex flex-col gap-y-4 mt-5 z-auto relative p-2.5">
+    <div className="flex flex-col gap-y-4 mt-10 z-auto relative p-2.5">
       <Image
         alt="Background Pattern"
         src="/BackgroundPattern.svg"
