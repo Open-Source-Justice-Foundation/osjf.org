@@ -32,7 +32,7 @@ const config = {
       "4xl": [
         "2.75rem",
         {
-          letterSpacing: "-1px",
+          letterSpacing: "-3px",
           lineHeight: "50px",
         },
       ],
@@ -49,7 +49,7 @@ const config = {
         "6.25rem",
         {
           lineHeight: "6.875rem",
-          letterSpacing: "-1px",
+          letterSpacing: "-3px",
         },
       ],
     },
