@@ -1,6 +1,24 @@
+<div align="center"><p>
+    <h1>Open Source Justice Foundation Website ⚖️</h1>
+    <a href="https://github.com/Open-Source-Justice-Foundation/osjf.org/pulse">
+      <img alt="Last commit" src="https://img.shields.io/github/last-commit/Open-Source-Justice-Foundation/osjf.org?style=for-the-badge&logo=starship&color=8bd5ca&logoColor=D9E0EE&labelColor=302D41"/>
+    </a>
+    <a href="https://github.com/Open-Source-Justice-Foundation/osjf.org/stargazers">
+      <img alt="Stars" src="https://img.shields.io/github/stars/Open-Source-Justice-Foundation/osjf.org?style=for-the-badge&logo=starship&color=c69ff5&logoColor=D9E0EE&labelColor=302D41" />
+    </a>
+    <a href="https://github.com/Open-Source-Justice-Foundation/osjf.org/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/Open-Source-Justice-Foundation/osjf.org?style=for-the-badge&logo=bilibili&color=F5E0DC&logoColor=D9E0EE&labelColor=302D41" />
+    </a>
+    <a href="https://github.com/Open-Source-Justice-Foundation/osjf.org">
+      <img alt="Repo size" src="https://img.shields.io/github/repo-size/Open-Source-Justice-Foundation/osjf.org?color=%23DDB6F2&label=SIZE&logo=codesandbox&style=for-the-badge&logoColor=D9E0EE&labelColor=302D41" />
+    </a>
+</div>
+
+## Contribute
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+### Getting Started
 
 First, run the development server:
 
